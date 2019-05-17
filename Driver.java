@@ -1,5 +1,5 @@
 /*
- * Driver program that runs Cypher
+ * Driver program that runs Cipher
  * Written by: Varun Peesapati
  */
 import java.util.*;
@@ -7,9 +7,9 @@ public class Driver
 {
 	public static void main(String[] args)
 	{
-		Cypher cypher = new Cypher();
-		cypher.getInput();
-		String encryptedBuffer = cypher.encrypt();
+		Cipher cipher = new Cipher();
+		cipher.getInput();
+		String encryptedBuffer = cipher.encrypt();
 		System.out.println("Encrypted String: "  + encryptedBuffer);
 	}
 }
