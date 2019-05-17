@@ -61,6 +61,9 @@ public class Cipher
 	{
 		String encryptedBuffer = new String(); //stores the buffer after encrytion
 		int diff = 0;
+		if(offset > 26) {
+			offset = offset - 26;
+		}
 		/* For each character in the buffer */
 		for(char character : buffer.toCharArray()) {
 			if(Character.isUpperCase(character)) {
