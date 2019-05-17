@@ -35,7 +35,7 @@ public class Cipher
 	}
 
 	/*
-	 * Function that adjusts the character if the difference is greater than the offset
+	 * Function that adjusts the character if the difference is smaller than the offset
 	 *
 	 * Returns the adjusted character
 	 */
