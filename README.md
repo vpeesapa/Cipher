@@ -9,7 +9,7 @@ The code is written in Java and implements the **Caesar Cipher** (also known as
 in the plain text is replaced by a letter some fixed number of positions down
 the alphabet.
 
-![Caesar Cipher](cipher.jpeg)
+![Caesar Cipher](cipher.png)
 
 ## Usage
 The program can be executed as follows:
