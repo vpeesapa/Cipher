@@ -10,6 +10,7 @@ public class Driver
 		Cipher cipher = new Cipher();
 		cipher.getInput();
 		String encryptedBuffer = cipher.encrypt();
-		System.out.println("Encrypted String: "  + encryptedBuffer);
+		System.out.println("Encrypted String: " + encryptedBuffer);
+		System.out.println("Decrypted String: " + cipher.decrypt(encryptedBuffer));
 	}
 }
