@@ -13,7 +13,7 @@ becomes E, and so on.
 ![Caesar Cipher](cipher.png)
 
 ## Organization of Code
-```
+``` sh
 $ tree .
 .
 ├── Cipher.java
@@ -30,7 +30,7 @@ implementation of the cipher and was linked together with `Cipher.java` by the
 
 ## Usage
 The program can be executed as follows:
-```
+``` sh
 $ make
 javac *.java
 $ java Driver
