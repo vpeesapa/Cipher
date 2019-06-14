@@ -23,9 +23,10 @@ $ tree .
 └── README.md
 ```
 As seen above, the code pertaining to this problem is organized in a single
-directory, with the code related to encryption and decryption present in `Cipher
-.java`. On the other hand, `Driver.java` is used to test the implementation of
-the cipher and was linked together with `Cipher.java` by the `Makefile`.
+directory, with the code related to encryption and decryption present in 
+`Cipher.java`. On the other hand, `Driver.java` is used to test the
+implementation of the cipher and was linked together with `Cipher.java` by the 
+`Makefile`.
 
 ## Usage
 The program can be executed as follows:
